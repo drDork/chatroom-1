@@ -5,7 +5,8 @@ app.controller('mainCtrl', function($scope, parseService){
 
     $scope.getParseData = function(){
         parseService.getData().then(function(data){
-            $scope.messages = data.data.results;
+            $scope.messages = data.data;
+            $scope.messages.reverse();
         })
     };
 

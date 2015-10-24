@@ -10,6 +10,11 @@
                 "text": "The second message",
                 "createdAt": 1445624876487,
                 "objectId": "NdQxqDK6OZgymJbb5IrRCsgjS5Xn"
+            },
+            {
+                "text": "Manually added message",
+                "createdAt": 1445624876487,
+                "objectId": "NdQxqDK6OZgymJbb5IrRCsgjS5Xn"
             }
         ]
     }
